@@ -1,0 +1,19 @@
+MED_ADMIN_ID	status	effective_dt	PERSON_ID	ENCNTR_ID	med_code	med_system	med_display
+med_admin_1	Completed	09/28/2009 01:15:16 PM	pat_2	enc_5	1740467	http://www.nlm.nih.gov/research/umls/rxnorm	2 ML Ondansetron 2 MG/ML Injection
+med_admin_2	Completed	09/28/2009 01:15:16 PM	pat_2	enc_5	311700	http://www.nlm.nih.gov/research/umls/rxnorm	Midazolam 1 MG/ML Injectable Solution
+med_admin_3	Completed	09/28/2009 01:15:16 PM	pat_2	enc_5	1808217	http://www.nlm.nih.gov/research/umls/rxnorm	100 ML Propofol 10 MG/ML Injection
+med_admin_4	Completed	09/28/2009 01:15:16 PM	pat_2	enc_5	1234995	http://www.nlm.nih.gov/research/umls/rxnorm	Rocuronium bromide 10 MG/ML Injectable Solution
+med_admin_5	Completed	09/28/2009 01:15:16 PM	pat_2	enc_5	200243	http://www.nlm.nih.gov/research/umls/rxnorm	sevoflurane 1000 MG/ML Inhalant Solution
+med_admin_6	Completed	09/28/2009 01:15:16 PM	pat_2	enc_5	73032	http://www.nlm.nih.gov/research/umls/rxnorm	Remifentanil
+med_admin_7	Completed	09/24/2017 09:47:26 AM	pat_3	enc_6	1740467	http://www.nlm.nih.gov/research/umls/rxnorm	2 ML Ondansetron 2 MG/ML Injection
+med_admin_8	Completed	09/24/2017 09:47:26 AM	pat_3	enc_6	238100	http://www.nlm.nih.gov/research/umls/rxnorm	Lorazepam 2 MG/ML Injectable Solution
+med_admin_9	Completed	09/24/2017 09:47:26 AM	pat_3	enc_6	1808217	http://www.nlm.nih.gov/research/umls/rxnorm	100 ML Propofol 10 MG/ML Injection
+med_admin_10	Completed	09/24/2017 09:47:26 AM	pat_3	enc_6	1234995	http://www.nlm.nih.gov/research/umls/rxnorm	Rocuronium bromide 10 MG/ML Injectable Solution
+med_admin_11	Completed	09/24/2017 09:47:26 AM	pat_3	enc_6	200252	http://www.nlm.nih.gov/research/umls/rxnorm	desflurane 990 MG/ML Inhalant Solution
+med_admin_12	Completed	09/24/2017 09:47:26 AM	pat_3	enc_6	73032	http://www.nlm.nih.gov/research/umls/rxnorm	Remifentanil
+med_admin_13	Completed	03/01/2011 01:50:16 AM	pat_6	enc_15	1740467	http://www.nlm.nih.gov/research/umls/rxnorm	2 ML Ondansetron 2 MG/ML Injection
+med_admin_14	Completed	03/01/2011 01:50:16 AM	pat_6	enc_15	311700	http://www.nlm.nih.gov/research/umls/rxnorm	Midazolam 1 MG/ML Injectable Solution
+med_admin_15	Completed	03/01/2011 01:50:16 AM	pat_6	enc_15	1808217	http://www.nlm.nih.gov/research/umls/rxnorm	100 ML Propofol 10 MG/ML Injection
+med_admin_16	Completed	03/01/2011 01:50:16 AM	pat_6	enc_15	1234995	http://www.nlm.nih.gov/research/umls/rxnorm	Rocuronium bromide 10 MG/ML Injectable Solution
+med_admin_17	Completed	03/01/2011 01:50:16 AM	pat_6	enc_15	542347	http://www.nlm.nih.gov/research/umls/rxnorm	Isoflurane 999 MG/ML Inhalant Solution
+med_admin_18	Completed	03/01/2011 01:50:16 AM	pat_6	enc_15	480	http://www.nlm.nih.gov/research/umls/rxnorm	Alfentanil

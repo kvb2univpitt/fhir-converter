@@ -1,0 +1,128 @@
+OBSERV_ID	event_end_dt_tm	PERSON_ID	ENCNTR_ID	loinc_code	loinc_description	result_val	result_units_cd	Clinical Event Result Type	category.code
+obs_1	11/17/2018 09:24:28 AM	pat_1	enc_1	8302-2	Body Height	159.54466164663938	cm	numeric	laboratory
+obs_2	11/17/2018 09:24:28 AM	pat_1	enc_1	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	0.48544186139957723	{score}	numeric	laboratory
+obs_3	11/17/2018 09:24:28 AM	pat_1	enc_1	29463-7	Body Weight	71.3834070841165	kg	numeric	laboratory
+obs_4	11/17/2018 09:24:28 AM	pat_1	enc_1	39156-5	Body Mass Index	28.043532467883875	kg/m2	numeric	laboratory
+obs_5	11/17/2018 09:24:28 AM	pat_1	enc_1	55284-4	Blood Pressure				laboratory
+obs_6	01/25/2014 09:24:28 AM	pat_1	enc_2	8302-2	Body Height	159.54466164663938	cm	numeric	laboratory
+obs_7	01/25/2014 09:24:28 AM	pat_1	enc_2	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	2.7996217021806684	{score}	numeric	laboratory
+obs_8	01/25/2014 09:24:28 AM	pat_1	enc_2	29463-7	Body Weight	72.04229904545038	kg	numeric	laboratory
+obs_9	01/25/2014 09:24:28 AM	pat_1	enc_2	39156-5	Body Mass Index	28.302383353058364	kg/m2	numeric	laboratory
+obs_10	01/25/2014 09:24:28 AM	pat_1	enc_2	55284-4	Blood Pressure				laboratory
+obs_11	12/17/2016 09:24:28 AM	pat_1	enc_3	8331-1	Oral temperature	37.04568750092894	Cel	numeric	laboratory
+obs_12	01/22/2011 09:24:28 AM	pat_1	enc_4	8302-2	Body Height	159.54466164663938	cm	numeric	laboratory
+obs_13	01/22/2011 09:24:28 AM	pat_1	enc_4	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	0.8955031214537685	{score}	numeric	laboratory
+obs_14	01/22/2011 09:24:28 AM	pat_1	enc_4	29463-7	Body Weight	67.21030124304083	kg	numeric	laboratory
+obs_15	01/22/2011 09:24:28 AM	pat_1	enc_4	39156-5	Body Mass Index	26.404095042205697	kg/m2	numeric	laboratory
+obs_16	01/22/2011 09:24:28 AM	pat_1	enc_4	55284-4	Blood Pressure				laboratory
+obs_17	09/28/2009 12:15:16 PM	pat_2	enc_5	26464-8	White Blood Cell (Elevated)	13.32934671738453	K/uL	numeric	laboratory
+obs_18	09/28/2009 12:15:16 PM	pat_2	enc_5	26453-1	Red Blood Cell	5.752110448497957	M/uL	numeric	laboratory
+obs_19	09/28/2009 12:15:16 PM	pat_2	enc_5	718-7	Hemoglobin	16.530388258319306	g/dL	numeric	laboratory
+obs_20	09/28/2009 12:15:16 PM	pat_2	enc_5	20570-8	Hematocrit	49.52671358309591	%	numeric	laboratory
+obs_21	09/28/2009 12:15:16 PM	pat_2	enc_5	30428-7	MCV	80.33797541908828	fL	numeric	laboratory
+obs_22	09/24/2017 07:47:26 AM	pat_3	enc_6	26464-8	White Blood Cell (Elevated)	12.081843769558938	K/uL	numeric	laboratory
+obs_23	09/24/2017 07:47:26 AM	pat_3	enc_6	26453-1	Red Blood Cell	5.415672495815932	M/uL	numeric	laboratory
+obs_24	09/24/2017 07:47:26 AM	pat_3	enc_6	718-7	Hemoglobin	15.15897651517357	g/dL	numeric	laboratory
+obs_25	09/24/2017 07:47:26 AM	pat_3	enc_6	20570-8	Hematocrit	42.631991918587744	%	numeric	laboratory
+obs_26	09/24/2017 07:47:26 AM	pat_3	enc_6	30428-7	MCV	95.94107802842665	fL	numeric	laboratory
+obs_27	05/28/2014 09:08:52 AM	pat_4	enc_7	8302-2	Body Height	184.09715388814064	cm	numeric	laboratory
+obs_28	05/28/2014 09:08:52 AM	pat_4	enc_7	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	3.7804080581494865	{score}	numeric	laboratory
+obs_29	05/28/2014 09:08:52 AM	pat_4	enc_7	29463-7	Body Weight	101.40264580946005	kg	numeric	laboratory
+obs_30	05/28/2014 09:08:52 AM	pat_4	enc_7	39156-5	Body Mass Index	29.919555554792243	kg/m2	numeric	laboratory
+obs_31	05/28/2014 09:08:52 AM	pat_4	enc_7	55284-4	Blood Pressure				laboratory
+obs_32	05/19/2010 09:08:52 AM	pat_4	enc_8	8302-2	Body Height	184.09715388814064	cm	numeric	laboratory
+obs_33	05/19/2010 09:08:52 AM	pat_4	enc_8	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.618968805608501	{score}	numeric	laboratory
+obs_34	05/19/2010 09:08:52 AM	pat_4	enc_8	29463-7	Body Weight	95.99052761017086	kg	numeric	laboratory
+obs_35	05/19/2010 09:08:52 AM	pat_4	enc_8	39156-5	Body Mass Index	28.322672457313647	kg/m2	numeric	laboratory
+obs_36	05/19/2010 09:08:52 AM	pat_4	enc_8	55284-4	Blood Pressure				laboratory
+obs_37	06/01/2016 09:08:52 AM	pat_4	enc_9	8302-2	Body Height	184.09715388814064	cm	numeric	laboratory
+obs_38	06/01/2016 09:08:52 AM	pat_4	enc_9	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.3648724874195577	{score}	numeric	laboratory
+obs_39	06/01/2016 09:08:52 AM	pat_4	enc_9	29463-7	Body Weight	102.46350935097954	kg	numeric	laboratory
+obs_40	06/01/2016 09:08:52 AM	pat_4	enc_9	39156-5	Body Mass Index	30.232570717396456	kg/m2	numeric	laboratory
+obs_41	06/01/2016 09:08:52 AM	pat_4	enc_9	55284-4	Blood Pressure				laboratory
+obs_42	05/23/2012 09:08:52 AM	pat_4	enc_10	8302-2	Body Height	184.09715388814064	cm	numeric	laboratory
+obs_43	05/23/2012 09:08:52 AM	pat_4	enc_10	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	0.5111379575584833	{score}	numeric	laboratory
+obs_44	05/23/2012 09:08:52 AM	pat_4	enc_10	29463-7	Body Weight	98.94974858384697	kg	numeric	laboratory
+obs_45	05/23/2012 09:08:52 AM	pat_4	enc_10	39156-5	Body Mass Index	29.19581117686123	kg/m2	numeric	laboratory
+obs_46	05/23/2012 09:08:52 AM	pat_4	enc_10	55284-4	Blood Pressure				laboratory
+obs_47	04/06/2010 06:38:12 AM	pat_5	enc_11	8302-2	Body Height	107.43039432339219	cm	numeric	laboratory
+obs_48	04/06/2010 06:38:12 AM	pat_5	enc_11	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.917975479503653	{score}	numeric	laboratory
+obs_49	04/06/2010 06:38:12 AM	pat_5	enc_11	29463-7	Body Weight	16.97910721503365	kg	numeric	laboratory
+obs_50	04/06/2010 06:38:12 AM	pat_5	enc_11	77606-2	Weight-for-length Per age and sex	32.70457967687658	%	numeric	laboratory
+obs_51	04/06/2010 06:38:12 AM	pat_5	enc_11	39156-5	Body Mass Index	14.711620423267332	kg/m2	numeric	laboratory
+obs_52	05/10/2016 06:38:12 AM	pat_5	enc_12	8302-2	Body Height	147.53333281579094	cm	numeric	laboratory
+obs_53	05/10/2016 06:38:12 AM	pat_5	enc_12	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	2.5771486528884955	{score}	numeric	laboratory
+obs_54	05/10/2016 06:38:12 AM	pat_5	enc_12	29463-7	Body Weight	34.67040611097291	kg	numeric	laboratory
+obs_55	05/10/2016 06:38:12 AM	pat_5	enc_12	39156-5	Body Mass Index	15.928637253388763	kg/m2	numeric	laboratory
+obs_56	05/10/2016 06:38:12 AM	pat_5	enc_12	59576-9	Body mass index (BMI) [Percentile] Per age and gender	34.82292309762624	%	numeric	laboratory
+obs_57	05/22/2018 06:38:12 AM	pat_5	enc_13	8302-2	Body Height	159.17104741914045	cm	numeric	laboratory
+obs_58	05/22/2018 06:38:12 AM	pat_5	enc_13	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	0.23112603886930305	{score}	numeric	laboratory
+obs_59	05/22/2018 06:38:12 AM	pat_5	enc_13	29463-7	Body Weight	44.24246396849214	kg	numeric	laboratory
+obs_60	05/22/2018 06:38:12 AM	pat_5	enc_13	39156-5	Body Mass Index	17.462690529039413	kg/m2	numeric	laboratory
+obs_61	05/22/2018 06:38:12 AM	pat_5	enc_13	59576-9	Body mass index (BMI) [Percentile] Per age and gender	43.816004411112274	%	numeric	laboratory
+obs_62	04/29/2014 06:38:12 AM	pat_5	enc_14	8302-2	Body Height	135.21182282804244	cm	numeric	laboratory
+obs_63	04/29/2014 06:38:12 AM	pat_5	enc_14	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	3.6194271592013223	{score}	numeric	laboratory
+obs_64	04/29/2014 06:38:12 AM	pat_5	enc_14	29463-7	Body Weight	27.295746126955088	kg	numeric	laboratory
+obs_65	04/29/2014 06:38:12 AM	pat_5	enc_14	39156-5	Body Mass Index	14.930200324204801	kg/m2	numeric	laboratory
+obs_66	04/29/2014 06:38:12 AM	pat_5	enc_14	59576-9	Body mass index (BMI) [Percentile] Per age and gender	28.11110564003167	%	numeric	laboratory
+obs_67	02/28/2011 10:50:16 PM	pat_6	enc_15	26464-8	White Blood Cell (Elevated)	11.949234798325325	K/uL	numeric	laboratory
+obs_68	02/28/2011 10:50:16 PM	pat_6	enc_15	26453-1	Red Blood Cell	4.870418712812128	M/uL	numeric	laboratory
+obs_69	02/28/2011 10:50:16 PM	pat_6	enc_15	718-7	Hemoglobin	16.553586234572837	g/dL	numeric	laboratory
+obs_70	02/28/2011 10:50:16 PM	pat_6	enc_15	20570-8	Hematocrit	42.2830338595081	%	numeric	laboratory
+obs_71	02/28/2011 10:50:16 PM	pat_6	enc_15	30428-7	MCV	82.90692076805621	fL	numeric	laboratory
+obs_72	06/15/2013 02:12:31 AM	pat_7	enc_16	8331-1	Oral temperature	37.58844172981438	Cel	numeric	laboratory
+obs_73	02/22/2014 01:12:31 AM	pat_7	enc_17	8302-2	Body Height	129.78030870043224	cm	numeric	laboratory
+obs_74	02/22/2014 01:12:31 AM	pat_7	enc_17	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.3834723541258636	{score}	numeric	laboratory
+obs_75	02/22/2014 01:12:31 AM	pat_7	enc_17	29463-7	Body Weight	26.083563564093605	kg	numeric	laboratory
+obs_76	02/22/2014 01:12:31 AM	pat_7	enc_17	39156-5	Body Mass Index	15.486358873542319	kg/m2	numeric	laboratory
+obs_77	02/22/2014 01:12:31 AM	pat_7	enc_17	59576-9	Body mass index (BMI) [Percentile] Per age and gender	43.16050285722635	%	numeric	laboratory
+obs_78	02/28/2015 01:12:31 AM	pat_7	enc_18	8302-2	Body Height	135.71816022286978	cm	numeric	laboratory
+obs_79	02/28/2015 01:12:31 AM	pat_7	enc_18	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	3.5242974354972043	{score}	numeric	laboratory
+obs_80	02/28/2015 01:12:31 AM	pat_7	enc_18	29463-7	Body Weight	29.866465000091875	kg	numeric	laboratory
+obs_81	02/28/2015 01:12:31 AM	pat_7	enc_18	39156-5	Body Mass Index	16.214661807159306	kg/m2	numeric	laboratory
+obs_82	02/28/2015 01:12:31 AM	pat_7	enc_18	59576-9	Body mass index (BMI) [Percentile] Per age and gender	48.23654530078655	%	numeric	laboratory
+obs_83	03/23/2019 02:12:31 AM	pat_7	enc_19	8302-2	Body Height	160.17353145291827	cm	numeric	laboratory
+obs_84	03/23/2019 02:12:31 AM	pat_7	enc_19	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.2134073844854276	{score}	numeric	laboratory
+obs_85	03/23/2019 02:12:31 AM	pat_7	enc_19	29463-7	Body Weight	47.201391939721624	kg	numeric	laboratory
+obs_86	03/23/2019 02:12:31 AM	pat_7	enc_19	39156-5	Body Mass Index	18.398113941793927	kg/m2	numeric	laboratory
+obs_87	03/23/2019 02:12:31 AM	pat_7	enc_19	59576-9	Body mass index (BMI) [Percentile] Per age and gender	45.10180903577288	%	numeric	laboratory
+obs_88	03/30/2015 05:22:41 AM	pat_8	enc_20	8302-2	Body Height	173.9018914060253	cm	numeric	laboratory
+obs_89	03/30/2015 05:22:41 AM	pat_8	enc_20	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	2.744325399190203	{score}	numeric	laboratory
+obs_90	03/30/2015 05:22:41 AM	pat_8	enc_20	29463-7	Body Weight	84.16772963190675	kg	numeric	laboratory
+obs_91	03/30/2015 05:22:41 AM	pat_8	enc_20	39156-5	Body Mass Index	27.831524855627176	kg/m2	numeric	laboratory
+obs_92	03/30/2015 05:22:41 AM	pat_8	enc_20	55284-4	Blood Pressure				laboratory
+obs_93	04/22/2019 05:22:41 AM	pat_8	enc_21	8302-2	Body Height	173.9018914060253	cm	numeric	laboratory
+obs_94	04/22/2019 05:22:41 AM	pat_8	enc_21	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	0.5986102254328189	{score}	numeric	laboratory
+obs_95	04/22/2019 05:22:41 AM	pat_8	enc_21	29463-7	Body Weight	84.16772963190675	kg	numeric	laboratory
+obs_96	04/22/2019 05:22:41 AM	pat_8	enc_21	39156-5	Body Mass Index	27.831524855627176	kg/m2	numeric	laboratory
+obs_97	04/22/2019 05:22:41 AM	pat_8	enc_21	55284-4	Blood Pressure				laboratory
+obs_98	03/07/2011 04:22:41 AM	pat_8	enc_22	8302-2	Body Height	173.9018914060253	cm	numeric	laboratory
+obs_99	03/07/2011 04:22:41 AM	pat_8	enc_22	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	3.0111464244461583	{score}	numeric	laboratory
+obs_100	03/07/2011 04:22:41 AM	pat_8	enc_22	29463-7	Body Weight	84.16772963190675	kg	numeric	laboratory
+obs_101	03/07/2011 04:22:41 AM	pat_8	enc_22	39156-5	Body Mass Index	27.831524855627176	kg/m2	numeric	laboratory
+obs_102	03/07/2011 04:22:41 AM	pat_8	enc_22	55284-4	Blood Pressure				laboratory
+obs_103	03/24/2014 05:22:41 AM	pat_8	enc_23	8302-2	Body Height	173.9018914060253	cm	numeric	laboratory
+obs_104	03/24/2014 05:22:41 AM	pat_8	enc_23	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	0.8381922055805364	{score}	numeric	laboratory
+obs_105	03/24/2014 05:22:41 AM	pat_8	enc_23	29463-7	Body Weight	84.16772963190675	kg	numeric	laboratory
+obs_106	03/24/2014 05:22:41 AM	pat_8	enc_23	39156-5	Body Mass Index	27.831524855627176	kg/m2	numeric	laboratory
+obs_107	03/24/2014 05:22:41 AM	pat_8	enc_23	55284-4	Blood Pressure				laboratory
+obs_108	07/29/2017 10:04:21 PM	pat_9	enc_24	8302-2	Body Height	55.595757753493736	cm	numeric	laboratory
+obs_109	07/29/2017 10:04:21 PM	pat_9	enc_24	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.0912746919861616	{score}	numeric	laboratory
+obs_110	07/29/2017 10:04:21 PM	pat_9	enc_24	29463-7	Body Weight	3.3320173288072574	kg	numeric	laboratory
+obs_111	07/29/2017 10:04:21 PM	pat_9	enc_24	77606-2	Weight-for-length Per age and sex	0.0000013719689757089585	%	numeric	laboratory
+obs_112	07/29/2017 10:04:21 PM	pat_9	enc_24	55284-4	Blood Pressure				laboratory
+obs_113	11/04/2017 10:04:21 PM	pat_9	enc_25	8302-2	Body Height	65.03052166537375	cm	numeric	laboratory
+obs_114	11/04/2017 10:04:21 PM	pat_9	enc_25	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.413614666770111	{score}	numeric	laboratory
+obs_115	11/04/2017 10:04:21 PM	pat_9	enc_25	29463-7	Body Weight	5.55366200177024	kg	numeric	laboratory
+obs_116	11/04/2017 10:04:21 PM	pat_9	enc_25	77606-2	Weight-for-length Per age and sex	0.0017080606297210949	%	numeric	laboratory
+obs_117	11/04/2017 10:04:21 PM	pat_9	enc_25	55284-4	Blood Pressure				laboratory
+obs_118	01/05/2019 09:04:21 PM	pat_9	enc_26	8302-2	Body Height	85.09630572366652	cm	numeric	laboratory
+obs_119	01/05/2019 09:04:21 PM	pat_9	enc_26	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	2.992570432295975	{score}	numeric	laboratory
+obs_120	01/05/2019 09:04:21 PM	pat_9	enc_26	29463-7	Body Weight	10.330566700175458	kg	numeric	laboratory
+obs_121	01/05/2019 09:04:21 PM	pat_9	enc_26	77606-2	Weight-for-length Per age and sex	1.7021010973740547	%	numeric	laboratory
+obs_122	01/05/2019 09:04:21 PM	pat_9	enc_26	55284-4	Blood Pressure				laboratory
+obs_123	01/06/2018 09:04:21 PM	pat_9	enc_27	8302-2	Body Height	69.17617734606317	cm	numeric	laboratory
+obs_124	01/06/2018 09:04:21 PM	pat_9	enc_27	72514-3	Pain severity - 0-10 verbal numeric rating [Score] - Reported	1.6128724512637942	{score}	numeric	laboratory
+obs_125	01/06/2018 09:04:21 PM	pat_9	enc_27	29463-7	Body Weight	6.700018738388554	kg	numeric	laboratory
+obs_126	01/06/2018 09:04:21 PM	pat_9	enc_27	77606-2	Weight-for-length Per age and sex	0.08794175824397882	%	numeric	laboratory
+obs_127	01/06/2018 09:04:21 PM	pat_9	enc_27	55284-4	Blood Pressure				laboratory
