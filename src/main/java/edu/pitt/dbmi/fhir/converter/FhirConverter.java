@@ -19,6 +19,11 @@
 package edu.pitt.dbmi.fhir.converter;
 
 import ca.uhn.fhir.context.FhirContext;
+import static edu.pitt.dbmi.fhir.converter.Datatype.PATIENT;
+import edu.pitt.dbmi.fhir.resource.mapper.r4.brainai.EncounterResourceMapper;
+import edu.pitt.dbmi.fhir.resource.mapper.r4.brainai.LocationResourceMapper;
+import edu.pitt.dbmi.fhir.resource.mapper.r4.brainai.MedicationAdministrationResourceMapper;
+import edu.pitt.dbmi.fhir.resource.mapper.r4.brainai.ObservationResourceMapper;
 import edu.pitt.dbmi.fhir.resource.mapper.r4.brainai.PatientResourceMapper;
 import edu.pitt.dbmi.fhir.resource.mapper.r4.converter.FhirResourceConvertException;
 import edu.pitt.dbmi.fhir.resource.mapper.r4.converter.FhirResourceConverter;
@@ -71,13 +76,52 @@ public class FhirConverter {
         return switch (cmdArgs.datatype()) {
             case PATIENT ->
                 mapToPatientResources();
+            case ENCOUNTER ->
+                mapToEncounterResources();
+            case OBSERVATION ->
+                mapToObservationResources();
+            case MEDICATION_ADMINISTRATION ->
+                mapToMedicationAdministrationResources();
+            case LOCATION ->
+                mapToLocationResources();
             default ->
                 Collections.EMPTY_LIST;
         };
     }
 
+    private List<Resource> mapToLocationResources() {
+        Path file = cmdArgs.healthDataFile();
+
+        return LocationResourceMapper.getLocations(file, Delimiters.TAB_DELIM).stream()
+                .map(e -> (Resource) e)
+                .collect(Collectors.toList());
+    }
+
+    private List<Resource> mapToMedicationAdministrationResources() {
+        Path file = cmdArgs.healthDataFile();
+
+        return MedicationAdministrationResourceMapper.getMedicationAdministrations(file, Delimiters.TAB_DELIM).stream()
+                .map(e -> (Resource) e)
+                .collect(Collectors.toList());
+    }
+
+    private List<Resource> mapToObservationResources() {
+        Path file = cmdArgs.healthDataFile();
+
+        return ObservationResourceMapper.getObservations(file, Delimiters.TAB_DELIM).stream()
+                .map(e -> (Resource) e)
+                .collect(Collectors.toList());
+    }
+
+    private List<Resource> mapToEncounterResources() {
+        Path file = cmdArgs.healthDataFile();
+
+        return EncounterResourceMapper.getEncounters(file, Delimiters.TAB_DELIM).stream()
+                .map(e -> (Resource) e)
+                .collect(Collectors.toList());
+    }
+
     private List<Resource> mapToPatientResources() {
-        // get patien FHIR resources
         Path file = cmdArgs.healthDataFile();
 
         return PatientResourceMapper.getPatients(file, Delimiters.TAB_DELIM).stream()

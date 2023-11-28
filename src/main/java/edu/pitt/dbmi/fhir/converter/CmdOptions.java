@@ -37,7 +37,7 @@ public final class CmdOptions {
 
     public static final Option TYPE = Option.builder()
             .longOpt("type")
-            .desc("Type of health data being converted: patient, encounter, observation.")
+            .desc("Type of health data being converted: patient, encounter, observation, medication-administration, location.")
             .hasArg(true)
             .required().build();
 

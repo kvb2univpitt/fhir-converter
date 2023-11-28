@@ -26,6 +26,6 @@ package edu.pitt.dbmi.fhir.converter;
  */
 public enum Datatype {
 
-    PATIENT, ENCOUNTER, OBSERVATION;
+    PATIENT, ENCOUNTER, OBSERVATION, MEDICATION_ADMINISTRATION, LOCATION;
 
 }

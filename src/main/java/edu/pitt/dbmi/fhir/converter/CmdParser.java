@@ -95,6 +95,12 @@ public final class CmdParser {
             case "observation" -> {
                 return Datatype.OBSERVATION;
             }
+            case "medication-administration" -> {
+                return Datatype.MEDICATION_ADMINISTRATION;
+            }
+            case "location" -> {
+                return Datatype.LOCATION;
+            }
             default ->
                 throw new ParseException(String.format("Unknown datatype '%s'.", type));
         }
