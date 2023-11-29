@@ -62,3 +62,26 @@ Based on the output above, you can see that the required parameters are ***data*
 | format    | The format of the output data file.                                     | Either json, ndjson, xml, or rdf                                                | Yes      |
 | dir-out   | The directory to write out data.  The current directory is the default. | N/A                                                                             | No       |
 
+The output filename is the same as the input filename. The output file extension is based on the format of the specified format of the data.  For an example, if the format is ***ndjson*** then the output file extension is ***.ndjson***. 
+
+### Examples
+
+The following examples use the data from the [sample_health_data.zip](https://pitt-dbmi.s3.amazonaws.com/tools/fhir/sample_health_data.zip).
+
+#### Converting Patient Health Data
+
+To convert the patient health data to FHIR patient resources as NDJSON format, execute the following:
+
+```
+java -jar fhir-converter-0.1.0.jar --data sample_health_data/patients.tsv --type patient --format ndjson
+```
+
+There should be an output file ***patients.ndjson***.
+
+To write out the output file to specific directory, use the ***dir-out*** parameter.  For an example:
+
+```
+java -jar fhir-converter-0.1.0.jar --data sample_health_data/patients.tsv --type patient --format ndjson --dir-out results/
+```
+
+The above command will put the file ***patients.ndjson*** in the **results** folder.
