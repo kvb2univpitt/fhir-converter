@@ -23,7 +23,7 @@
         <dependency>
             <groupId>edu.pitt.dbmi</groupId>
             <artifactId>fhir-resource-mapper</artifactId>
-            <version>0.3.0</version>
+            <version>0.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

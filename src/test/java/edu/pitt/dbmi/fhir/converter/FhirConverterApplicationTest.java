@@ -47,6 +47,7 @@ public class FhirConverterApplicationTest {
             "--format", "ndjson",
             "--dir-out", dirOut
         };
+        FhirConverterApplication.main(args);
     }
 
     @Test
@@ -59,6 +60,7 @@ public class FhirConverterApplicationTest {
             "--format", "ndjson",
             "--dir-out", dirOut
         };
+        FhirConverterApplication.main(args);
     }
 
     @Test
@@ -71,6 +73,7 @@ public class FhirConverterApplicationTest {
             "--format", "ndjson",
             "--dir-out", dirOut
         };
+        FhirConverterApplication.main(args);
     }
 
     @Test
@@ -83,6 +86,7 @@ public class FhirConverterApplicationTest {
             "--format", "ndjson",
             "--dir-out", dirOut
         };
+        FhirConverterApplication.main(args);
     }
 
     @Test
