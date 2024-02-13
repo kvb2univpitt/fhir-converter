@@ -39,7 +39,7 @@ public class FhirConverterApplicationTest {
 
     @Test
     public void testConvertToLocation() throws IOException {
-        Path file = new File(getClass().getResource("/data/brainai/locations.tsv").getFile()).toPath();
+        Path file = new File(getClass().getResource("/data/brainai_v2/locations.tsv").getFile()).toPath();
         String dirOut = createSubDir(tempDir, "location_convert").toString();
         String[] args = {
             "--data", file.toString(),
@@ -52,7 +52,7 @@ public class FhirConverterApplicationTest {
 
     @Test
     public void testConvertToMedicationAdministration() throws IOException {
-        Path file = new File(getClass().getResource("/data/brainai/medication_administrations.tsv").getFile()).toPath();
+        Path file = new File(getClass().getResource("/data/brainai_v2/medication_administrations.tsv").getFile()).toPath();
         String dirOut = createSubDir(tempDir, "medication_administration_convert").toString();
         String[] args = {
             "--data", file.toString(),
@@ -65,7 +65,7 @@ public class FhirConverterApplicationTest {
 
     @Test
     public void testConvertToObservation() throws IOException {
-        Path file = new File(getClass().getResource("/data/brainai/observations.tsv").getFile()).toPath();
+        Path file = new File(getClass().getResource("/data/brainai_v2/observations.tsv").getFile()).toPath();
         String dirOut = createSubDir(tempDir, "observation_convert").toString();
         String[] args = {
             "--data", file.toString(),
@@ -78,7 +78,7 @@ public class FhirConverterApplicationTest {
 
     @Test
     public void testConvertToEncounter() throws IOException {
-        Path file = new File(getClass().getResource("/data/brainai/encounters.tsv").getFile()).toPath();
+        Path file = new File(getClass().getResource("/data/brainai_v2/encounters.tsv").getFile()).toPath();
         String dirOut = createSubDir(tempDir, "encounter_convert").toString();
         String[] args = {
             "--data", file.toString(),
@@ -91,7 +91,7 @@ public class FhirConverterApplicationTest {
 
     @Test
     public void testConvertToPatient() throws IOException {
-        Path file = new File(getClass().getResource("/data/brainai/patients.tsv").getFile()).toPath();
+        Path file = new File(getClass().getResource("/data/brainai_v2/patients.tsv").getFile()).toPath();
         String dirOut = createSubDir(tempDir, "patient_convert").toString();
         String[] args = {
             "--data", file.toString(),
